@@ -5,6 +5,7 @@ export default defineConfig({
   title: "安隅 (Anyu)",
   description: "记录心情，听见内心的宁静",
   lang: 'zh-CN',
+  base: '/anyu-site/',
   
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }]
