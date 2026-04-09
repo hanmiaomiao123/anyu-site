@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "安隅 (Anyu)"
-  text: "记录心情，听见内心的宁静"
+  text: "记录心情，给内心一份安宁"
   tagline: 专属于你的情绪避风港与愈疗空间
   image:
     src: /logo.png

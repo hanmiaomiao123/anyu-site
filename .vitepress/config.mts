@@ -6,7 +6,7 @@ const UPDATE_DATE = '2026年4月18日'
 
 export default defineConfig({
   title: "安隅 (Anyu)",
-  description: "记录心情，听见内心的声音",
+  description: "记录心情，给内心一份安宁",
   lang: 'zh-CN',
   base: '/anyu-site/',
 
@@ -50,7 +50,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: `最后更新于：${UPDATE_DATE} | 听见内心的声音`,
+      message: `最后更新于：${UPDATE_DATE} | 给内心一份安宁`,
       copyright: 'Copyright © 2026-present 安隅 (Anyu) 团队'
     },
 
