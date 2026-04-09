@@ -41,7 +41,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm config set registry https://registry.npmmirror.com
-          npm install --no-audit --no-fund --loglevel verbose
+          npm install --no-audit --no-fund --omit=optional
       - name: Build with VitePress
         run: npx vitepress build
       - name: Upload artifact
