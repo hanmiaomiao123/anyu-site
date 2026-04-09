@@ -34,12 +34,14 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20  # 回归到最稳健的 LTS
           cache: npm
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
+        run: |
+          npm config set registry https://registry.npmmirror.com
+          npm install --no-audit --no-fund --loglevel verbose
       - name: Build with VitePress
         run: npx vitepress build
       - name: Upload artifact
