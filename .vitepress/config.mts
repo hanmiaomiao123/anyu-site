@@ -1,30 +1,29 @@
 import { defineConfig } from 'vitepress'
 
 // ── 统一管理全站日期变量 ────────────────────────────────────
-// 修改这里即可一键同步全站（官网首页、隐私政策、页脚等）的显示日期
 const UPDATE_DATE = '2026年4月18日'
 // ──────────────────────────────────────────────────────────
 
 export default defineConfig({
   title: "安隅 (Anyu)",
-  description: "记录心情，听见内心的宁静",
+  description: "记录心情，听见内心的声音",
   lang: 'zh-CN',
   base: '/anyu-site/',
-  
+
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }]
   ],
 
-  // 关闭自动 Git 时间，改用我们手动定义的日期
   lastUpdated: false,
 
-  themeConfig: {
-    // 将变量存入 themeConfig，以便在 Markdown 中引用
-    // @ts-ignore
-    customUpdateDate: UPDATE_DATE,
+  // 核心修复：将变量注入到 frontmatter 中，避免 TS 类型报警
+  transformPageData(pageData) {
+    pageData.frontmatter.updateDate = UPDATE_DATE
+  },
 
+  themeConfig: {
     logo: '/logo.png',
-    
+
     search: {
       provider: 'local',
       options: {
@@ -51,15 +50,11 @@ export default defineConfig({
     ],
 
     footer: {
-      message: `最后更新于：${UPDATE_DATE} | 用科技温暖心灵`,
+      message: `最后更新于：${UPDATE_DATE} | 听见内心的声音`,
       copyright: 'Copyright © 2026-present 安隅 (Anyu) 团队'
     },
 
-    docFooter: {
-      prev: '上一页',
-      next: '下一页'
-    },
-
+    docFooter: { prev: '上一页', next: '下一页' },
     outline: { label: '页面大纲', level: [2, 3] },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
