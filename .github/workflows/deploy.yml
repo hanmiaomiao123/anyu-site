@@ -34,12 +34,12 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
           cache: npm
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: npm install
+        run: npm install --no-audit --no-fund
       - name: Build with VitePress
         run: npx vitepress build
       - name: Upload artifact
