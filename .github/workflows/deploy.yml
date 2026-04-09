@@ -38,9 +38,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: |
-          yarn config set registry https://registry.npmmirror.com
-          yarn install
+        run: yarn install
       - name: Build with VitePress
         run: yarn build
       - name: Upload artifact
