@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "隅安 (Yuan)"
+  name: "安隅 (Anyu)"
   text: "让情绪在这里靠岸"
   tagline: 专属于你的情绪避风港与愈疗空间
   image:

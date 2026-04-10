@@ -5,7 +5,7 @@ const UPDATE_DATE = '2026年4月18日'
 // ──────────────────────────────────────────────────────────
 
 export default defineConfig({
-  title: "隅安 (Yuan)",
+  title: "安隅 (Anyu)",
   description: "记录心情，给内心一份安宁",
   lang: 'zh-CN',
   base: '/yuan-site/',
@@ -46,12 +46,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/hanmiaomiao123/Yuan' }
+      { icon: 'github', link: 'https://github.com/hanmiaomiao123/Anyu' }
     ],
 
     footer: {
       message: `最后更新于：${UPDATE_DATE} | 给内心一份安宁`,
-      copyright: 'Copyright © 2026-present 隅安 (Yuan) 团队'
+      copyright: 'Copyright © 2026-present 安隅 (Anyu) 团队'
     },
 
     docFooter: { prev: '上一页', next: '下一页' },

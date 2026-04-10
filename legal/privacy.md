@@ -1,4 +1,4 @@
-# 隅安 (Yuan) 隐私政策
+# 安隅 (Anyu) 隐私政策
 
 **最近更新日期：{{ $frontmatter.updateDate }}**
 
