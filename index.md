@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "安隅 (Anyu)"
+  name: "暖屿 (Anyu)"
   text: "记录心情，给内心一份安宁"
   tagline: 专属于你的情绪避风港与愈疗空间
   image:

@@ -1,6 +1,6 @@
-# 安隅 (Anyu) - 官方网站
+# 暖屿 (Anyu) - 官方网站
 
-这是“安隅 (Anyu)”APP 的官方网站及隐私政策托管仓库。基于 [VitePress](https://vitepress.dev/) 构建。
+这是“暖屿 (Anyu)”APP 的官方网站及隐私政策托管仓库。基于 [VitePress](https://vitepress.dev/) 构建。
 
 ## 🌐 网站内容
 
@@ -32,4 +32,4 @@ npm run preview
 
 ---
 
-**安隅 (Anyu)** - 记录心情，听见内心的宁静。
+**暖屿 (Anyu)** - 记录心情，听见内心的宁静。
