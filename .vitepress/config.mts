@@ -5,10 +5,10 @@ const UPDATE_DATE = '2026年4月18日'
 // ──────────────────────────────────────────────────────────
 
 export default defineConfig({
-  title: "暖屿 (Nuanyu)",
+  title: "隅安 (Yuan)",
   description: "记录心情，给内心一份安宁",
   lang: 'zh-CN',
-  base: '/nuanyu-site/',
+  base: '/yuan-site/',
 
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }]
@@ -42,16 +42,16 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '功能介绍', link: '/#features' },
       { text: '隐私政策', link: '/legal/privacy' },
-      { text: '关于暖屿', link: '/about' }
+      { text: '关于隅安', link: '/about' }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/hanmiaomiao123/Nuanyu' }
+      { icon: 'github', link: 'https://github.com/hanmiaomiao123/Yuan' }
     ],
 
     footer: {
       message: `最后更新于：${UPDATE_DATE} | 给内心一份安宁`,
-      copyright: 'Copyright © 2026-present 暖屿 (Nuanyu) 团队'
+      copyright: 'Copyright © 2026-present 隅安 (Yuan) 团队'
     },
 
     docFooter: { prev: '上一页', next: '下一页' },
