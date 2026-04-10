@@ -5,10 +5,10 @@ const UPDATE_DATE = '2026年4月18日'
 // ──────────────────────────────────────────────────────────
 
 export default defineConfig({
-  title: "暖屿 (Anyu)",
+  title: "暖屿 (Nuanyu)",
   description: "记录心情，给内心一份安宁",
   lang: 'zh-CN',
-  base: '/anyu-site/',
+  base: '/nuanyu-site/',
 
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }]
@@ -46,12 +46,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/hanmiaomiao123/Anyu' }
+      { icon: 'github', link: 'https://github.com/hanmiaomiao123/Nuanyu' }
     ],
 
     footer: {
       message: `最后更新于：${UPDATE_DATE} | 给内心一份安宁`,
-      copyright: 'Copyright © 2026-present 暖屿 (Anyu) 团队'
+      copyright: 'Copyright © 2026-present 暖屿 (Nuanyu) 团队'
     },
 
     docFooter: { prev: '上一页', next: '下一页' },

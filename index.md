@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "暖屿 (Anyu)"
+  name: "暖屿 (Nuanyu)"
   text: "记录心情，给内心一份安宁"
   tagline: 专属于你的情绪避风港与愈疗空间
   image:
     src: /logo.png
-    alt: Anyu Logo
+    alt: Nuan Logo
   actions:
     - theme: brand
       text: 开启探索

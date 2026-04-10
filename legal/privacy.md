@@ -1,4 +1,4 @@
-# 暖屿 (Anyu) 隐私政策
+# 暖屿 (Nuanyu) 隐私政策
 
 **最近更新日期：{{ $frontmatter.updateDate }}**
 
