@@ -8,7 +8,7 @@ export default defineConfig({
   title: "安隅 (Anyu)",
   description: "记录心情，给内心一份安宁",
   lang: 'zh-CN',
-  base: '/yuan-site/',
+  base: '/anyu-site/',
 
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }]
