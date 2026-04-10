@@ -42,7 +42,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '功能介绍', link: '/#features' },
       { text: '隐私政策', link: '/legal/privacy' },
-      { text: '关于隅安', link: '/about' }
+      { text: '关于安隅', link: '/about' }
     ],
 
     socialLinks: [
