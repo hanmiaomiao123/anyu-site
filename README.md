@@ -1,6 +1,6 @@
 # 安隅 (Anyu) - 官方网站
 
-这是“隅安 (Anyu)”APP 的官方网站及隐私政策托管仓库。基于 [VitePress](https://vitepress.dev/) 构建。
+这是“安隅 (Anyu)”APP 的官方网站及隐私政策托管仓库。基于 [VitePress](https://vitepress.dev/) 构建。
 
 ## 🌐 网站内容
 
